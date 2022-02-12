@@ -34,10 +34,6 @@ a:hover {
   color: #dfb9a3 !important;
 }
 
-/*.navbar-brand .uil {
-  font-size: 40px;
-}
-*/
 p {
   font-size: 18px;
   font-weight: 300;
@@ -318,7 +314,7 @@ b, strong {
 }
 .timeline-wrapper:before {
   content: "";
-  background: #474559;
+  background: #dfb9a3;
   width: 3px;
   height: 100%;
   position: absolute;
@@ -326,7 +322,7 @@ b, strong {
 }
 
 .timeline-yr {
-  background: #474559;
+  background: #dfb9a3;
   border-radius: 100%;
   position: absolute;
   width: 75px;
@@ -424,7 +420,7 @@ b, strong {
   border-color: #dfb9a3;
 }
 .contact-form .submit-btn {
-  background: #ffc200;
+  background: #474559;
   border-radius: 50px;
   color: #ffffff;
   font-weight: bold;
@@ -433,7 +429,7 @@ b, strong {
   transition: all 0.4s ease;
 }
 .contact-form .submit-btn:hover {
-  background: #474559;
+  background: #dfb9a3;
 }
 
 .contact-info {
@@ -558,4 +554,5 @@ b, strong {
     display: inline-block;
     vertical-align: top;
   }
+
 }
