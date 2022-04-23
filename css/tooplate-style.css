@@ -1,3 +1,12 @@
+/*
+
+Tooplate 2115 Marvel
+
+https://www.tooplate.com/view/2115-marvel
+
+*/
+
+
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
 body {
   font-family: "Maven Pro", sans-serif;
@@ -34,6 +43,10 @@ a:hover {
   color: #dfb9a3 !important;
 }
 
+/*.navbar-brand .uil {
+  font-size: 40px;
+}
+*/
 p {
   font-size: 18px;
   font-weight: 300;
@@ -157,11 +170,11 @@ b, strong {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 999999;
-  will-change: transform;
-  transition: transform 200ms linear;
+  background: #F7F7F7;
+  z-index: 9999;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
-.navbar[class*="-unpinned"] {
+/*.navbar[class*="-unpinned"] {
   transform: translate(0, -150%);
 }
 .navbar[class*="-pinned"] {
@@ -172,11 +185,10 @@ b, strong {
   border-bottom: 1px solid #f0f0f0;
   padding-top: 0;
   padding-bottom: 0;
-}
-
-/*.navbar-brand {
-  font-weight: bold;
 }*/
+.navbar-brand {
+  font-weight: bold;
+}
 
 .navbar-expand-sm .navbar-nav .nav-link {
   padding: 0 20px;
