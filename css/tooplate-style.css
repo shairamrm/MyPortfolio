@@ -174,7 +174,7 @@ b, strong {
   z-index: 9999;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
-.navbar[class*="-unpinned"] {
+/* .navbar[class*="-unpinned"] {
   transform: translate(0, -150%);
 }
 .navbar[class*="-pinned"] {
@@ -185,7 +185,7 @@ b, strong {
   border-bottom: 1px solid #f0f0f0;
   padding-top: 0;
   padding-bottom: 0;
-}
+} */
 .navbar-brand {
   font-weight: bold;
 }
